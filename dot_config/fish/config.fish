@@ -9,6 +9,7 @@ thefuck --alias | source
 
 zoxide init fish | source
 set -gx EDITOR nvim
+set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
 #oh-my-posh init fish --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/1_shell.omp.json' | source
 
 #################### BEGIN image display things ######################
