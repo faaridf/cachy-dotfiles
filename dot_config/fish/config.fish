@@ -10,6 +10,9 @@ thefuck --alias | source
 zoxide init fish | source
 set -gx EDITOR nvim
 set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
+# set -gx PROTON_ENABLE_WAYLAND 0
+# set -gx PROTON_NO_WM_DECORATION 0
+# set -gx PROTON_USE_NTSYNC 0
 #oh-my-posh init fish --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/1_shell.omp.json' | source
 
 #################### BEGIN image display things ######################
