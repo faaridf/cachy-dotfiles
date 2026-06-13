@@ -22,3 +22,6 @@
 # Highest possible resolution (no height constraint)
 --alias b,-B '-f "bestvideo+bestaudio/best"'
 
+# 360p
+
+--alias l,-L '-f "bestvideo[height<=360][ext=webm]+bestaudio/best[height<=360][ext=webm]"'

@@ -2953,12 +2953,20 @@
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="Mononoki Nerd Font Mono"
+font_family      family='GohuFont 14 Nerd Font' postscript_name=GohuFont14NF
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
-font_size 13.0
+font_size 14.0
 # END_KITTY_FONTS
+
+
+
+#linux_display_server x11
+linux_display_server auto
+#cursor_trail 1
+#cursor_trail_start_threshold 0
+
 
 
 # BEGIN_KITTY_THEME
