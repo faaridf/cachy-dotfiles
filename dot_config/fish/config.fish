@@ -87,3 +87,5 @@ else if [ "$TERM_PROGRAM" = WezTerm ]
 end
 
 #################### END image display things ######################
+
+
