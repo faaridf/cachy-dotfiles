@@ -88,4 +88,4 @@ end
 
 #################### END image display things ######################
 
-
+jj util completion fish | source
